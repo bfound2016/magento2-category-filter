@@ -1,23 +1,23 @@
 <?xml version="1.0"?>
 <!--
 /**
- * GiaPhuGroup Co., Ltd.
+ * BFound Digital
  *
  * NOTICE OF LICENSE
  *
  * This source file is subject to the GiaPhuGroup.com license that is
  * available through the world-wide-web at this URL:
- * https://www.giaphugroup.com/LICENSE.txt
+ * https://b-found.nl/LICENSE.txt
  *
  * DISCLAIMER
  *
  * Do not edit or add to this file if you wish to upgrade this extension to newer
  * version in the future.
  *
- * @category    PHPCuong
- * @package     PHPCuong_CatalogSearch
- * @copyright   Copyright (c) 2017 GiaPhuGroup.com. All rights reserved. (http://www.giaphugroup.com/)
- * @license     https://www.giaphugroup.com/LICENSE.txt
+ * @category    BFD
+ * @package     BFD_CatalogSearch
+ * @copyright   Copyright (c) 2023 BFound Digital. All rights reserved. (https://b-found.nl/)
+ * @license     https://b-found.nl/LICENSE.txt
  */
 -->
 <listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
@@ -31,7 +31,7 @@
                     </item>
                 </argument>
                 <settings>
-                    <options class="PHPCuong\CatalogSearch\Ui\Component\Product\Form\Categories\Options"/>
+                    <options class="BFD\CatalogSearch\Ui\Component\Product\Form\Categories\Options"/>
                     <caption translate="true">– Please Select a Category –</caption>
                     <label translate="true">Categories</label>
                     <dataScope>category_id</dataScope>
@@ -43,7 +43,7 @@
         </filters>
     </listingToolbar>
     <columns name="product_columns" class="Magento\Catalog\Ui\Component\Listing\Columns">
-        <column name="category_id" class="PHPCuong\CatalogSearch\Ui\Component\Listing\Column\Category">
+        <column name="category_id" class="BFD\CatalogSearch\Ui\Component\Listing\Column\Category">
             <argument name="data" xsi:type="array">
                <item name="config" xsi:type="array">
                    <item name="label" xsi:type="string" translate="true">Categories</item>

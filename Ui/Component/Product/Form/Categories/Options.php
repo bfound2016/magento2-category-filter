@@ -1,25 +1,25 @@
 <?php
 /**
- * GiaPhuGroup Co., Ltd.
+ * BFound Digital
  *
  * NOTICE OF LICENSE
  *
  * This source file is subject to the GiaPhuGroup.com license that is
  * available through the world-wide-web at this URL:
- * https://www.giaphugroup.com/LICENSE.txt
+ * https://b-found.nl/LICENSE.txt
  *
  * DISCLAIMER
  *
  * Do not edit or add to this file if you wish to upgrade this extension to newer
  * version in the future.
  *
- * @category    PHPCuong
- * @package     PHPCuong_CatalogSearch
- * @copyright   Copyright (c) 2017 GiaPhuGroup.com. All rights reserved. (http://www.giaphugroup.com/)
- * @license     https://www.giaphugroup.com/LICENSE.txt
+ * @category    BFD
+ * @package     BFD_CatalogSearch
+ * @copyright   Copyright (c) 2023 BFound Digital. All rights reserved. (https://b-found.nl/)
+ * @license     https://b-found.nl/LICENSE.txt
  */
 
-namespace PHPCuong\CatalogSearch\Ui\Component\Product\Form\Categories;
+namespace BFD\CatalogSearch\Ui\Component\Product\Form\Categories;
 
 use Magento\Framework\Data\OptionSourceInterface;
 use Magento\Catalog\Model\ResourceModel\Category\CollectionFactory as CategoryCollectionFactory;
